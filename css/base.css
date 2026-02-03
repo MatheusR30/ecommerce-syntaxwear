@@ -3,6 +3,14 @@ body {
   color: #333333;
 }
 
+main {
+  padding: 2.5rem 0 0;
+  max-width: 1360px;
+
+  margin: 0 auto;
+  /* O margin 0 auto consegue centralizar horizontalmente, mas só se tiver uma medida fixa */
+}
+
 .btn {
   font-size: 1.25rem;
   width: 161px;
