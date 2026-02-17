@@ -5,14 +5,10 @@
   left: 50%;
   transform: translate(-50%);
   /* transform: translate(-50%); - Isso vai centralizar horizontalmente o elemento na tela*/
-
-  /* width: 100%;
-  max-width: 1320px; */
-  width: calc(100% - 210px);
-  /* width: calc(100% - 40px); - Calcula a largura total menos 40px para espaçamento lateral*/
+  width: 1260px;
   border-radius: 15px;
   z-index: 999;
-  /* z-index: 999; - Bom de usar com POSITION, trazer para frente no EIXO Z, de profundidade */
+  /* z-index: 999; - Ira trazer para frente, no EIXO Z, de profundidade */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,9 +51,11 @@
 
 .nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
+  flex: 1;
+  margin-left: 10rem;
 }
 
 .menu-toggle {
