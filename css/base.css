@@ -11,14 +11,21 @@ main {
   /* O margin 0 auto consegue centralizar horizontalmente, mas só se tiver uma medida fixa */
 }
 
+@media (max-width: 1280px) {
+  main {
+    padding: 0.625rem;
+  }
+}
+
 .btn {
   font-size: 1.25rem;
   width: 161px;
   height: 48px;
   border-radius: 25px;
+  text-decoration: none;
   color: #ffffff;
   font-weight: 400;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   transition:
     background-color 0.3s,
     border 0.3s;
@@ -40,10 +47,4 @@ main {
   background-color: #6429a3;
   color: #ffffff;
   border-color: #6429a3;
-}
-
-.footer-copy {
-  font-size: 1.25rem;
-  text-align: center;
-  padding: 20px 0;
 }

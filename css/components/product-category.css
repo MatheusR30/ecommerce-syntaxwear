@@ -60,3 +60,9 @@ exatamente no centro sem que usemos o Display:flex*/
   background: url(../../images/products/futurista.jpg) no-repeat center;
   background-size: cover;
 }
+
+@media (max-width: 560px) {
+  .category-card {
+    width: 100%;
+  }
+}
