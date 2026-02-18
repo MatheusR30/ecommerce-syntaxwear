@@ -4,9 +4,8 @@ body {
 }
 
 main {
-  padding: 2.5rem 0 2.5rem;
+  padding: 2.5rem;
   max-width: 1360px;
-
   margin: 0 auto;
   /* O margin 0 auto consegue centralizar horizontalmente, mas só se tiver uma medida fixa */
 }

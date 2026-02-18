@@ -1,7 +1,6 @@
 .categories-section {
   padding-top: 40px;
   padding-bottom: 40px;
-
   display: flex;
   flex-wrap: wrap;
   /* Quando estou usando o WRAP, os 4 tenis estao quebrando e ficando 1 na linha de baixo, o tamanho fixo de 317px nao cabem os 4. 
@@ -13,7 +12,10 @@
 
 .category-card {
   position: relative;
-  width: 317px;
+  /* width: 317px; Esta quebrando a linha mesmo com a janela aberta */
+  min-width: 270px;
+  max-width: 317px;
+
   height: 500px;
   border-radius: 15px;
   overflow: hidden;
