@@ -1,6 +1,6 @@
 # SyntaxWear - Tênis e Sneakers Online
 
-Bem-vindo ao repositório do SyntaxWear, um e-commerce especializado na venda de tênis e sneakers. Este projeto foi desenvolvido para oferecer uma experiência moderna e responsiva para os usuários, com foco em design e funcionalidade.
+Bem-vindo ao repositório do SyntaxWear, um e-commerce especializado na venda de tênis e sneakers. Este projeto foi desenvolvido para oferecer uma experiência moderna e responsiva para os usuários, com foco em design e funcionalidade usando HTML e CSS.
 
 ## 📂 Estrutura do Projeto
 
